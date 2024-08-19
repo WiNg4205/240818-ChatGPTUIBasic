@@ -11,12 +11,12 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { QuestionMarkCircleIcon } from '@heroicons/vue/24/outline'
+  import { ref } from 'vue'
+  import { QuestionMarkCircleIcon } from '@heroicons/vue/24/outline'
 
-const openSidebar = ref(true)
+  const openSidebar = ref(true)
 
-const toggleSidebar = () => {
-  openSidebar.value = !openSidebar.value
-}
+  const toggleSidebar = () => {
+    openSidebar.value = !openSidebar.value
+  }
 </script>
